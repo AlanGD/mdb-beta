@@ -1,0 +1,274 @@
+<!--Navbar-->
+<div class="container">
+
+    <!--Navbar-->
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white z-depth-0 py-3 pb-3 px-0 mx-0" [containerInside]="false">
+
+        <!-- Navbar brand -->
+        <mdb-navbar-brand>
+            <a href=""><img src="assets/img/imgHeader/tool.jpg" alt=""></a>
+            <a class="navbar-brand mx-1" href="#">Switch Catalog<i class="fa fa-caret-down"></i></a>
+        </mdb-navbar-brand>
+
+        <!-- Collapsible content -->
+        <links>
+
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link waves-light" mdbWavesEffect>
+                        <mdb-icon fas icon="envelope"></mdb-icon> My Orders<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link waves-light" mdbWavesEffect>
+                        <mdb-icon fas icon="cog"></mdb-icon> Downloads</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-light" mdbWavesEffect>
+                        <mdb-icon fas icon="cog"></mdb-icon> Help</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                        <mdb-icon fas icon="user"></mdb-icon> Alan García<span class="caret"></span></a>
+                    <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Downloads</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Help</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Alan García</a>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- Links -->
+        </links>
+        <!-- Collapsible content -->
+
+    </mdb-navbar>
+    <!--/.Navbar-->
+</div>
+<div class="imagen">
+    <div class=" temporada d-block mx-auto my-auto ">
+        <h1 class="display-3 text-center  mt-1"> Winter 2019</h1>
+
+    </div>
+</div>
+
+<mdb-navbar SideClass="navbar navbar-expand-sm navbar-dark black">
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Shop by category<i class="fa fa-caret-down"></i></a></mdb-navbar-brand>
+    <links class="d-flex justify-content-around">
+        <form class="form-inline waves-light" mdbWavesEffect>
+            <div class="md-form my-0">
+                <input class="form-control " type="text" placeholder="Buscar">
+            </div>
+        </form>
+
+
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown" mdbDropdown>
+                <a mdbDropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                Basic dropdown<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
+                </div>
+            </li>
+        </ul>
+        <button type="button" mdbBtn color="warning" size="md" mdbWavesEffect>Chekout</button>
+    </links>
+</mdb-navbar>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="list-group mt-5">
+                <li class="list-group-item border-0 px-0 font-weight-bold">Tools</li>
+                <li class="list-group-item border-0 px-0">Hammers</li>
+                <li class="list-group-item border-0 px-0">Cutting Tools</li>
+                <li class="list-group-item border-0 px-0">Screwdrivers</li>
+                <li class="list-group-item border-0 px-0">Pliers</li>
+                <li class="list-group-item border-0 px-0 font-weight-bold">Wrenches</li>
+                <li class="list-group-item border-0 px-0">Drills</li>
+                <li class="list-group-item border-0 px-0">Saws</li>
+                <li class="list-group-item border-0 px-0">Plumbing Tools</li>
+                <li class="list-group-item border-0 px-0">Garden Tools</li>
+                <li class="list-group-item border-0 px-0">Fastening Tools</li>
+                <li class="list-group-item border-0 px-0">Sockets & Ratchets</li>
+                <li class="list-group-item border-0 px-0">Measuring Tools</li>
+                <li class="list-group-item border-0 px-0">Power Tools</li>
+                <li class="list-group-item border-0 px-0">Dapibus ac facilisis in</li>
+                <li class="list-group-item border-0 px-0">Morbi leo risus</li>
+            </ul>
+
+        </div>
+        <div class="col">
+
+            <div class="d-flex mb-3 my-3">
+                <div class="mr-auto p-2"><a>Viewing 1-24 of 32</a></div>
+                <div class="p-2"><a class="mx-3"><i class="fa fa-list"></i>list</a></div>
+                <div class="p-2"><a class="deep-orange-text"><i class="fa fa-list-alt"></i>Image</a></div>
+            </div>
+
+            <p class=" mr-0 z-depth-1">Wrenches</p>
+
+            <div class="card-deck">
+                <div class="  hoverable border-0 card ">
+                    <img class="card-img-top" src="assets/img/catalogLlaves/l5.jpg" alt="Card image cap">
+                    <div class="">
+                        <p class="small text-black-50 my-0">Fuente Conmutada De Alimentación 12v 10a</p>
+                        <hr>
+                        <div class="d-flex mb-3">
+                            <div class="mr-auto p-2"><label class="card-text small m-0">$428.00</label></div>
+                            <div class="p-2">
+                                <mdb-icon fas icon="shopping-cart"></mdb-icon>
+                            </div>
+                            <div class="p-2">
+                                <mdb-icon far icon="heart"></mdb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="  hoverable border-0 card ">
+                    <img class="card-img-top" src="assets/img/catalogLlaves/l3.jpg" alt="Card image cap">
+                    <div class="">
+                        <p class="small text-black-50 my-0">Fuente Conmutada De Alimentación 12v 10a</p>
+                        <hr>
+                        <div class="d-flex mb-3">
+                            <div class="mr-auto p-2"><label class="card-text small m-0">$428.00/set</label>
+                                <p>box (4lb)</p>
+                            </div>
+                            <div class="p-2">
+                                <input mdbInput type="text" class="form-control ml-4 mt-1" style="width: 40%;">
+                            </div>
+                            <div class="p-2">
+                                <mdb-icon fas icon="plus" class="mt-2" size="lg"></mdb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="  hoverable border-0 card ">
+                    <img class="card-img-top" src="assets/img/catalogLlaves/l2.jpg" alt="Card image cap">
+                    <div class="">
+                        <p class="small text-black-50 my-0">Fuente Conmutada De Alimentación 12v 10a</p>
+                        <hr>
+                        <div class="d-flex mb-3">
+                            <div class="mr-auto p-2"><label class="card-text small m-0">$428.00</label></div>
+                            <div class="p-2">
+                                <mdb-icon fas icon="shopping-cart"></mdb-icon>
+                            </div>
+                            <div class="p-2">
+                                <mdb-icon far icon="heart"></mdb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck my-3">
+                <div class=" hoverable border-0 card m-1 ">
+                    <img class="card-img-top p-1" src="assets/img/catalogLlaves/l2.jpg" alt="Card image cap">
+                    <div class="">
+                        <p class="small text-black-50 my-0">Fuente Conmutada De Alimentación 12v 10a</p>
+                        <hr>
+                        <div class="d-flex mb-3">
+                            <div class="mr-auto p-2"><label class="card-text small m-0">$428.00</label></div>
+                            <div class="p-2">
+                                <mdb-icon fas icon="shopping-cart"></mdb-icon>
+                            </div>
+                            <div class="p-2">
+                                <mdb-icon far icon="heart"></mdb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="  hoverable border-0 card ">
+                    <img class="card-img-top" src="assets/img/catalogLlaves/l3.jpg" alt="Card image cap">
+                    <div class="">
+                        <p class="small text-black-50 my-0">Fuente Conmutada De Alimentación 12v 10a</p>
+                        <hr>
+                        <div class="d-flex mb-3">
+                            <div class="mr-auto p-2"><label class="card-text small m-0">$428.00</label></div>
+                            <div class="p-2">
+                                <mdb-icon fas icon="shopping-cart"></mdb-icon>
+                            </div>
+                            <div class="p-2">
+                                <mdb-icon far icon="heart"></mdb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="  hoverable border-0 card ">
+                    <img class="card-img-top" src="assets/img/catalogLlaves/l5.jpg" alt="Card image cap">
+                    <div class="">
+                        <p class="small text-black-50 my-0">Fuente Conmutada De Alimentación 12v 10a</p>
+                        <hr>
+                        <div class="d-flex mb-3">
+                            <div class="mr-auto p-2"><label class="card-text small m-0">$428.00</label></div>
+                            <div class="p-2">
+                                <mdb-icon fas icon="shopping-cart"></mdb-icon>
+                            </div>
+                            <div class="p-2">
+                                <mdb-icon far icon="heart"></mdb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer class="page-footer font-small black pt-4">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="text-uppercase">Footer Content</h5>
+                <p>Here you can use rows and columns here to organize your footer content.</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 4</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a>Alan García Del Rosario</a>
+    </div>
+</footer>
